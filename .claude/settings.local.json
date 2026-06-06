@@ -7,7 +7,13 @@
       "Bash(pkill -f \"vite\")",
       "Bash(curl -Is http://localhost:5173/)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(ls -la ~/.ssh/id_*.pub 2>/dev/null || echo \"No SSH keys found\")",
+      "Bash(ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null)",
+      "Bash(git commit *)"
     ]
   }
 }
