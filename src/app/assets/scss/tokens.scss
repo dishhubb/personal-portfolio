@@ -8,13 +8,14 @@
   --space-4: 24px;
   --space-5: 40px;
   --space-6: 64px;
+  --space-7: 80px;
+  --space-8: 120px;
 
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 16px;
-}
 
-:root[data-theme='dark'] {
+  // Default to dark theme
   --color-bg: #0F0F0F;
   --color-surface: #1A1A1A;
   --color-text: #F0F0F0;
@@ -25,8 +26,8 @@
 
 :root[data-theme='light'] {
   --color-bg: #FFFFFF;
-  --color-surface: #F5F5F5;
-  --color-text: #1A1A1A;
+  --color-surface: #F7F7F7;
+  --color-text: #111111;
   --color-text-muted: #666666;
   --color-accent: #F97316;
   --color-border: #E5E5E5;
