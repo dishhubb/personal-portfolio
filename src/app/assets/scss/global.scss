@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 *,
 *::before,
@@ -16,8 +16,8 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -37,43 +37,45 @@ img {
 
 .page {
   min-height: calc(100vh - 64px);
-  padding-top: var(--space-5);
-  padding-bottom: var(--space-7);
+  padding-top: 80px;
+  padding-bottom: 120px;
 
   @media (min-width: 768px) {
-    padding-top: var(--space-6);
-    padding-bottom: var(--space-8);
+    padding-top: 100px;
+    padding-bottom: 160px;
   }
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1120px;
-  padding: 0 var(--space-4);
+  max-width: 1000px;
+  padding: 0 24px;
   width: 100%;
 
   @media (min-width: 768px) {
-    padding: 0 var(--space-5);
+    padding: 0 40px;
   }
 }
 
 .section-title {
   color: var(--color-text);
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
-  margin-bottom: var(--space-4);
+  font-family: var(--font-serif);
+  font-size: 2.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 24px;
 
   @media (min-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 }
 
 .section-subtitle {
   color: var(--color-text-muted);
   font-size: 1.125rem;
-  line-height: 1.6;
-  margin-bottom: var(--space-5);
-  max-width: 640px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 48px;
+  max-width: 680px;
 }

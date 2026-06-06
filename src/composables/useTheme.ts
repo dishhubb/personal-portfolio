@@ -2,7 +2,7 @@ import { ref, watch } from 'vue'
 
 export type Theme = 'light' | 'dark'
 
-const theme = ref<Theme>('dark')
+const theme = ref<Theme>('light')
 
 // Initialize from localStorage or system preference
 if (typeof window !== 'undefined') {
