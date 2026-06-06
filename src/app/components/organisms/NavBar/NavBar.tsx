@@ -1,6 +1,7 @@
 import { defineComponent } from 'vue'
 import { RouterLink } from 'vue-router'
 import profile from '../../../../../data/profile.json'
+import ThemeToggle from '../../atoms/ThemeToggle/ThemeToggle.vue'
 import './NavBar.scss'
 
 const navLinks = [
@@ -12,6 +13,7 @@ const navLinks = [
 
 export default defineComponent({
   name: 'NavBar',
+  components: { ThemeToggle },
   setup() {
     return () => (
       <header class="nav-bar">
@@ -26,6 +28,7 @@ export default defineComponent({
               </RouterLink>
             ))}
           </nav>
+          <ThemeToggle />
         </div>
       </header>
     )

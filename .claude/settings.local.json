@@ -13,7 +13,8 @@
       "Bash(git push *)",
       "Bash(ls -la ~/.ssh/id_*.pub 2>/dev/null || echo \"No SSH keys found\")",
       "Bash(ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "WebFetch(domain:startups-fyi-web.vercel.app)"
     ]
   }
 }

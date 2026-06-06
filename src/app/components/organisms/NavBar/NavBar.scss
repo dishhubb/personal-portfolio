@@ -9,8 +9,9 @@
 
   &__inner {
     align-items: center;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    gap: var(--space-4);
+    grid-template-columns: auto 1fr auto;
   }
 
   &__brand {
@@ -18,12 +19,17 @@
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: -0.02em;
+    white-space: nowrap;
   }
 
   &__nav {
     display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3);
+    gap: var(--space-4);
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      gap: var(--space-3);
+    }
   }
 
   &__link {
