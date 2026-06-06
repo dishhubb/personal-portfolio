@@ -1,0 +1,13 @@
+{
+  "name": "Deepika Kukreja",
+  "title": "Product Manager",
+  "bio": "I build user-first products at the intersection of data, design, and business. I specialize in 0→1 launches, growth loops, and turning ambiguous problems into shipped outcomes.",
+  "avatar": "/images/avatar.jpg",
+  "location": "San Francisco, CA",
+  "links": {
+    "linkedin": "https://linkedin.com/in/deepikakukreja",
+    "resume": "/resume.pdf",
+    "email": "deepika@example.com",
+    "github": "https://github.com/deepikakukreja"
+  }
+}

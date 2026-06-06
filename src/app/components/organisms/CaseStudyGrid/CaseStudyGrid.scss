@@ -1,0 +1,13 @@
+.case-study-grid {
+  padding: var(--space-5) 0 var(--space-6);
+
+  &__list {
+    display: grid;
+    gap: var(--space-4);
+    grid-template-columns: 1fr;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "case-two",
+  "title": "Enterprise Feature Adoption Platform",
+  "company": "Nova Health",
+  "year": "2023",
+  "tags": ["B2B", "Platform", "Research"],
+  "summary": "Built an in-app guidance layer that helped hospital admins discover underused capabilities and drove measurable adoption across enterprise accounts.",
+  "sections": [
+    {
+      "type": "text",
+      "heading": "The Problem",
+      "body": "Enterprise customers paid for a full platform but used less than 40% of available modules. Sales promised capabilities that CS couldn't train at scale. Churn risk increased among accounts with low feature breadth."
+    },
+    {
+      "type": "metrics",
+      "items": ["<40% module utilization", "12-week avg. time-to-first advanced feature", "Enterprise NPS 31"]
+    },
+    {
+      "type": "text",
+      "heading": "Discovery",
+      "body": "I shadowed 8 CS onboarding calls and analyzed product telemetry by account tier. Admins needed contextual nudges—not another PDF playbook. We validated concepts with 5 design partners before committing engineering capacity."
+    },
+    {
+      "type": "image",
+      "src": "/images/case-two-flow.png",
+      "caption": "Contextual prompts triggered by usage patterns and role-based goals"
+    },
+    {
+      "type": "text",
+      "heading": "My Approach",
+      "body": "Defined an adoption score per account, prioritized prompts by revenue impact, and shipped a rules engine MVP in one quarter. Partnered with data science on propensity models and with legal on HIPAA-safe messaging."
+    },
+    {
+      "type": "text",
+      "heading": "Outcome",
+      "body": "Feature adoption increased 41% across pilot accounts, enterprise NPS rose 12 points, and expansion revenue in the cohort grew 9% year-over-year."
+    },
+    {
+      "type": "metrics",
+      "items": ["↑ 41% feature adoption", "NPS +12 pts", "↑ 9% expansion revenue"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Senior Product Manager",
+    "company": "Acme Corp",
+    "period": "2023 – Present",
+    "description": "Lead PM for core onboarding and activation. Shipped 3 major features driving 34% lift in week-1 retention."
+  },
+  {
+    "role": "Product Manager",
+    "company": "Nova Health",
+    "period": "2021 – 2023",
+    "description": "Owned patient scheduling and telehealth experience. Reduced no-show rate by 22% through predictive reminders."
+  },
+  {
+    "role": "Associate Product Manager",
+    "company": "Brightline",
+    "period": "2019 – 2021",
+    "description": "Launched self-serve analytics dashboard for SMB customers. Grew paid conversion from trial by 18%."
+  },
+  {
+    "role": "Business Analyst",
+    "company": "Meridian Finance",
+    "period": "2017 – 2019",
+    "description": "Partnered with product and eng on mobile banking MVP. Defined KPIs and ran weekly experiment reviews."
+  }
+]
